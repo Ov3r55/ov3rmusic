@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-var PREFIX = "!";
+var PREFIX = "+";
 
 var bot = new Discord.Client();
 
@@ -23,7 +23,7 @@ bot.on("message", async function(message) {
                     color: 0xFF0000
                     author: message.author.name
                     title: '',
-                    fields [
+                    fields [{
                         name: "Lien d'invitation"
                         value: "https://discordapp.com/oauth2/authorize?client_id=582010060423561216&scope=bot&permissions=8"
                         inline: false
@@ -31,7 +31,7 @@ bot.on("message", async function(message) {
                 footer: {
                     footer: "Patartager ce lien a vos potes c'est mon premier bot line : https://discordapp.com/oauth2/authorize?client_id=582010060423561216&scope=bot&permissions=8",
                   },
-               }  
+                }  
             });
         break;
     }
