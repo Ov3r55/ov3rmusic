@@ -27,10 +27,7 @@ bot.on("message", async function(message) {
                         name: "Lien d'invitation"
                         value: "https://discordapp.com/oauth2/authorize?client_id=582010060423561216&scope=bot&permissions=8"
                         inline: false
-                }]
-                footer: {
-                    footer: "Patartager ce lien a vos potes c'est mon premier bot line : https://discordapp.com/oauth2/authorize?client_id=582010060423561216&scope=bot&permissions=8",
-                  },
+                 }]
                 }  
             });
         break;
