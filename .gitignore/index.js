@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 
-var PREFIX = "+";
+var PREFIX = "!";
 
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    bot.user.setGame("Ov3r'Music, +help");
+    bot.user.setGame("Ov3r'Music, !help");
     console.log("Le Bot a bienn été connécté");
 });
 
